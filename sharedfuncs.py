@@ -139,7 +139,6 @@ def printFunctionCall(counter, link):
 def printLocustRequestFile(links):
     header = '''
 from locust import HttpLocust, TaskSet, task
-from bs4 import BeautifulSoup
 
 class MyTaskSet(TaskSet):
     '''
