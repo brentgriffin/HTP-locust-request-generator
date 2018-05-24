@@ -59,7 +59,7 @@ class myThread (threading.Thread):
 def main():
     threads = []
 
-    for i in range(1, (threadCount + 1):
+    for i in range(1, (threadCount + 1)):
         threads.append(myThread(i, 'Thread-' + str(i)))
 
     for t in threads:

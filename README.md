@@ -18,4 +18,4 @@ TODO:
 
 
 Example usage:
-docker run -e HOST=http://13.59.15.93 -e CLIENT_THREADS=10 jbgriffin/htp-locust-request-file-generator
+docker run -e HOST=http://13.59.15.93 -e CLIENT_THREADS=10 jbgriffin/htp-locust-request-file-generator > requests.txt
