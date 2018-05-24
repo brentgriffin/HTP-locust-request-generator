@@ -18,4 +18,7 @@ TODO:
 
 
 Example usage:
-docker run -e HOST=http://13.59.15.93 -e CLIENT_THREADS=10 jbgriffin/htp-locust-request-file-generator > requests.txt
+```
+docker run -e HOST=http://13.59.15.93 -e CLIENT_THREADS=10 jbgriffin/htp-locust-request-file-generator > locustfile.py
+docker run --rm -v `pwd`:/locust -p 8089:8089 christianbladescb/locustio --host http://13.59.15.93
+```
